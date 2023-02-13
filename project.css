@@ -18,10 +18,10 @@
 /* @keyframes backg {
 
   50%{
-    background: fixed url("./images/morningpic3.jpg")no-repeat center/cover;
+    background: fixed url("morningpic3.jpg")no-repeat center/cover;
   }
   100%{
-    background: fixed url('./images/morningpic2.jpg') no-repeat center/cover;
+    background: fixed url('morningpic2.jpg') no-repeat center/cover;
   }
 } */
 
@@ -253,23 +253,23 @@ float: right;
 
 } */
 #first_page{
-    background: fixed url("./images/back5.jpg") no-repeat center/cover ;
+    background: fixed url("back5.jpg") no-repeat center/cover ;
     animation: background 10s infinite ;
 }
 @keyframes background{ 
    
     32%{
-        background: fixed url("./images/back4.jpg") no-repeat center/cover;
+        background: fixed url("back4.jpg") no-repeat center/cover;
     }
     50%{
-        background: fixed url("./images/back3.jpg") no-repeat center/cover;
+        background: fixed url("back3.jpg") no-repeat center/cover;
     }
     75%{
-        background: fixed url("./images/back6.jpg") no-repeat center/cover;
+        background: fixed url("back6.jpg") no-repeat center/cover;
     }
    
     100%{
-        background: fixed url("./images/back1.jpg") no-repeat center/cover;
+        background: fixed url("back1.jpg") no-repeat center/cover;
     }
 }
 img[alt="logo"]{
@@ -310,7 +310,7 @@ margin: 2% 38%;
 /* login page for adorn world*/
 #login{
    
-    background:fixed url('/images/back4.jpg') no-repeat center/cover;
+    background:fixed url('back4.jpg') no-repeat center/cover;
       
   }
   
@@ -572,7 +572,7 @@ text-align: center;
 
   #birthday{
     /* background:url("./images/weedingdec.jpg") repeat center/100%; */
-    background: url("./images/bithdaypic4.jpg") no-repeat center/cover;
+    background: url("bithdaypic4.jpg") no-repeat center/cover;
 
 
 
@@ -580,16 +580,16 @@ text-align: center;
   }
   @keyframes br{
     25%{
-        background: url("./images/birthdaypic2.jpg") no-repeat center/cover;
+        background: url("birthdaypic2.jpg") no-repeat center/cover;
     }
     50%{
-        background: url("./images/birthdaypic3.jpg") no-repeat center/cover;
+        background: url("birthdaypic3.jpg") no-repeat center/cover;
     }
     75%{
-        background: url("./images/birthdaypic2.jpg") no-repeat center/cover;
+        background: url("birthdaypic2.jpg") no-repeat center/cover;
     }
     100%{
-              background:url("./images/birthdaypic1.jpg") no-repeat center/cover;
+              background:url("birthdaypic1.jpg") no-repeat center/cover;
     }
   }
   #weeding{
@@ -602,23 +602,23 @@ text-align: center;
   }
   @keyframes wed{
     25%{
-        background: url("./images/weddingpic4.jpg") no-repeat center/cover;
+        background: url("weddingpic4.jpg") no-repeat center/cover;
     }
     50%{
-        background: url("./images/weddingpic3.jpg") no-repeat center/cover;
+        background: url("weddingpic3.jpg") no-repeat center/cover;
     }
     75%{
-        background: url("./images/weddingpic2.jpg") no-repeat center/cover;
+        background: url("weddingpic2.jpg") no-repeat center/cover;
     }
     100%{
-background:url("./images/weddingdec1.jpg") repeat center/100%;
+background:url("weddingdec1.jpg") repeat center/100%;
     }
   }
 
 
   #mourning{
     /* background:url("./images/weedingdec.jpg") repeat center/100%; */
-    background: url("./images/back4.png") no-repeat center/cover;
+    background: url("back4.png") no-repeat center/cover;
 
 
 
@@ -626,22 +626,22 @@ background:url("./images/weddingdec1.jpg") repeat center/100%;
   }
   @keyframes mor{
     25%{
-        background: url("./images/morningpic1.jpg") no-repeat center/cover;
+        background: url("morningpic1.jpg") no-repeat center/cover;
     }
     50%{
-        background: url("./images/morningpic4.jpg") no-repeat center/cover;
+        background: url("morningpic4.jpg") no-repeat center/cover;
     }
     75%{
-        background: url("./images/morningpic3.jpg") no-repeat center/cover;
+        background: url("morningpic3.jpg") no-repeat center/cover;
     }
     100%{
-background:url("./images/morningpic5.jpg") repeat center/100%;
+background:url("morningpic5.jpg") repeat center/100%;
     }
   }
   
   #graduation{
     /* background:url("./images/weedingdec.jpg") repeat center/100%; */
-    background: url("./images/graduation.jpg") no-repeat center/cover;
+    background: url("graduation.jpg") no-repeat center/cover;
  
 
 
@@ -649,22 +649,22 @@ background:url("./images/morningpic5.jpg") repeat center/100%;
   }
   @keyframes gra{
     25%{
-        background: url("./images/graduation2.jpg") no-repeat center/cover;
+        background: url("graduation2.jpg") no-repeat center/cover;
     }
     50%{
-        background: url("./images/graduation3.jpg") no-repeat center/cover;
+        background: url("graduation3.jpg") no-repeat center/cover;
     }
     75%{
-        background: url("./images/graduation4.jpg") no-repeat center/cover;
+        background: url("graduation4.jpg") no-repeat center/cover;
     }
     100%{
-background:url("./images/graduation5.jpg") repeat center/100%;
+background:url("graduation5.jpg") repeat center/100%;
     }
   }
   
   #proposal{
     /* background:url("./images/weedingdec.jpg") repeat center/100%; */
-    background: url("./images/proposal1.jpg") no-repeat center/cover;
+    background: url("proposal1.jpg") no-repeat center/cover;
   
    
 
@@ -672,31 +672,31 @@ background:url("./images/graduation5.jpg") repeat center/100%;
   }
   @keyframes gra{
     25%{
-        background: url("./images/proposal2.jpg") no-repeat center/cover;
+        background: url("proposal2.jpg") no-repeat center/cover;
     }
     50%{
-        background: url("./images/proposal3.jpg") no-repeat center/cover;
+        background: url("proposal3.jpg") no-repeat center/cover;
     }
     75%{
-        background: url("./images/proposal4.jpg") no-repeat center/cover;
+        background: url("proposal4.jpg") no-repeat center/cover;
     }
     100%{
-background:url("./images/proposal5.jpg") repeat center/100%;
+background:url("proposal5.jpg") repeat center/100%;
     }
   }
   #home{
     /* background:url("./images/weedingdec.jpg") repeat center/100%; */
-    background: url("./images/home.jpg") no-repeat center/cover;
+    background: url("home.jpg") no-repeat center/cover;
 
 
     animation: hom 20s infinite;
   }
   @keyframes hom{
     50%{
-        background: url("./images/home1.jpg") no-repeat center/cover;
+        background: url("home1.jpg") no-repeat center/cover;
     }
     100%{
-        background: url("./images/home22.jpg") no-repeat center/cover;
+        background: url("home22.jpg") no-repeat center/cover;
     }
    
   }
