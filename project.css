@@ -1,0 +1,789 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#homepage h1 img{
+    width: 2em;
+    height: 1.7em;
+    margin:0.3em 0.4em 0 0.2em;
+}
+#homepage{
+    margin-top: 0;
+    background: rgb(158, 157, 157);
+      /* background: fixed url("./images/morningpic3.jpg")no-repeat center/cover; */
+ /* background:fixed url("./images/morningpic4.jpg") no-repeat center/cover; */
+    animation: backg 20s infinite;
+}
+/* @keyframes backg {
+
+  50%{
+    background: fixed url("./images/morningpic3.jpg")no-repeat center/cover;
+  }
+  100%{
+    background: fixed url('./images/morningpic2.jpg') no-repeat center/cover;
+  }
+} */
+
+.menu{
+    background-color: rgb(86, 4, 85);
+    height: 4em;
+    position: fixed;
+    top: 0em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ul{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+h1{
+    width: 12.5em;
+    display: flex;
+    margin-left: 0;
+    font-family:berlin Sans FB ;
+    
+}
+li{
+    width: 5em;
+    height: 3.125em;
+     color: white;
+    display: flex;
+    font-size: 1.25em;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content:center;
+    border-radius: 0;
+    align-items: center;
+}
+li .active{
+    width: 6.25em;
+  
+    height: 3.125em;
+    display: flex;
+    border-bottom:18.75% solid rgb(92, 16, 50);
+    font-size: 1.25em;
+    justify-content:center;
+    border-radius: 0%;
+    align-items: center;
+    
+}
+
+li:hover{
+    border-bottom:18.75% solid rgb(150, 66, 104);
+    color: white;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    margin: 0em;
+    color: rgb(255, 255, 255);
+  
+}
+.information{
+    margin-top: 7em;
+    display:block;
+    margin-left: -29em;
+    align-items: center;
+    height: 5em;
+    width: 30em;
+    color: rgb(255, 252, 252);
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: blue; */
+
+}
+.information h3{
+    margin-top: 2em;
+    font-size: 1.875em;
+    color: black;
+}
+.information h2{
+    background-color: rgb(86, 4, 71);
+    width:60%;
+    border-radius: 4px;
+    color: white;
+    font-size: 45px;
+    text-shadow: -18.75% 18.75% 8px rgb(71, 2, 69);
+}
+
+
+
+.design{
+    color: rgb(1, 0, 1);
+    flex-direction: row;
+    display: block;
+    width: 13em;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.design>img{
+       border-radius: 2em;
+       margin:2em 0 0 0;
+    width: 13em;
+    height: 8em;
+    float:left;
+}
+#information{
+    width: 4em;
+    display: block;
+    margin-left: 0;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+.all{
+  display: flex;
+  width: 1065px;
+}
+.info{
+    background:linear-gradient(to bottom,rgb(148, 12, 150), rgb(158, 157, 157));
+    height: 280px;
+    width: 250px;
+border-radius: 2em 2em 1em 1em;
+color: rgb(72, 4, 50);
+    text-align: justify;
+    /* padding: 4em; */
+    justify-content: space-between;
+    margin-left: 1em;
+
+}
+.info:hover{
+ transform: rotateY(20deg);
+}
+.info ul{
+    margin:3em 3.8em;
+    display: block;
+    width: 12em;
+    height: 12em;
+}
+/* .customer{
+  background-color: #f6f4f6;
+  margin-left:34em;
+} */
+.info h3{
+    color: rgb(80, 8, 70);
+    width: 8em;
+    
+    margin:1.4em 3em;
+    height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    /* background-color: black; */
+}
+#customers{
+
+  background-color: #3333339e;
+width:39em;
+text-align: center;
+border-radius: 2em 2em 2em 12em;
+width: 50%;
+height: 8.5em;
+  padding-left: 5%;
+margin-bottom: 1em;
+float: right;
+}
+#mission{
+
+  width: 50%;
+  padding: 2%;
+  border-radius: 2em 12em 2em 2em;
+  border: 12% solid pink ;
+  background-color: #3333339e;
+}
+#mission:hover,#customers:hover{
+  background-color: rgba(136, 55, 108, 0.39);
+  margin:3em 0;
+  transition: 2s;
+}
+.info ul li a{
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+}
+.info ul li{
+    width: 156px;
+    justify-content: start;
+}
+.info ul li:hover,.info ul li a:hover{
+    background-color: rgba(25, 22, 22,0);
+    color: rgb(115, 2, 68);
+    border: 0;
+}
+ .present_image{
+    float: left;
+    margin-left: 33em;
+    height: 16em;
+    width: 12em;
+ }
+ .present_image img{
+    width: 13em;
+    border-radius: 2%;
+    margin-right: 1em;
+    box-shadow: -0.6em 0.5em 1em rgb(109, 106, 108);
+ }
+ .img{
+  display: flex;
+  margin-left:0   ;
+ }
+ .present_image p{
+    color: rgb(6, 6, 6);
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 6px;
+    text-align: center;
+    width: 12em;
+    margin-left:5em;
+ }
+ footer{
+    color: rgb(114, 114, 130);
+    margin-left:28em
+ }
+/* .contact ul{
+    display: block;
+    list-style-type: none;
+}
+.contact li:hover{
+    background-color: rgba(96, 99, 96,0.0);
+
+} */
+#first_page{
+    background: fixed url("./images/back5.jpg") no-repeat center/cover ;
+    animation: background 10s infinite ;
+}
+@keyframes background{ 
+   
+    32%{
+        background: fixed url("./images/back4.jpg") no-repeat center/cover;
+    }
+    50%{
+        background: fixed url("./images/back3.jpg") no-repeat center/cover;
+    }
+    75%{
+        background: fixed url("./images/back6.jpg") no-repeat center/cover;
+    }
+   
+    100%{
+        background: fixed url("./images/back1.jpg") no-repeat center/cover;
+    }
+}
+img[alt="logo"]{
+    width:15em;
+    border-radius: 50%;
+margin: 2% 38%;
+}
+#adorn{
+    margin: -3.2% 20%;
+    font-family: bernard MT condensed;
+    font-size: 8em;
+  /* background-color: blue; */
+    width: 6em;
+    height: 1em;
+
+}
+.paragraph{
+    width: 35em;
+
+    height: 5em;
+    color: rgb(13, 13, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.6em;
+    text-align: center;
+    margin: 3.5% 10%;
+}
+.paragraph button{
+    padding: 1% 10%;
+    color: black;
+    font-size: 0.8em;
+    border: 0.2em solid rgb(127, 0, 177);
+    background-color:  rgb(127, 0, 177);
+    border-radius: 1em;
+    margin-top: 1em ;
+}
+/* login page for adorn world*/
+#login{
+   
+    background:fixed url('/images/back4.jpg') no-repeat center/cover;
+      
+  }
+  
+  
+  .login{
+    
+      background: rgba(34, 32, 32,0);
+      color: rgb(54, 2, 32);
+      height: 78%;
+      width: 35%;
+     margin: 7% auto 12%;
+     animation-name:example;
+     animation-duration: 6s;
+     background: rgba(255, 192, 203, 0.587);
+     animation-iteration-count: infinite;
+     text-align: center;
+     padding: 58px 30px;
+     border-radius: 5px;
+  
+  }
+  @keyframes example {
+    
+  50%{
+      background-image:linear-gradient(to top left,rgb(196, 31, 177),rgb(242, 0, 255),rgb(186, 26, 55));
+  }
+  100%{
+      background-image:linear-gradient(to top left,rgb(186, 26, 55),rgb(183, 142, 185),rgb(121, 9, 112)); 
+  }
+       
+      
+    }
+  .inform{
+  justify-content: center;
+  margin-left: 20px;
+  }
+  .button{
+  margin: 3em auto;
+  background-color: rgb(179, 9, 198);
+  padding: 8px 20px;
+  border: 1px solid rgb(179, 9, 198);
+  border-radius: 5px; 
+      
+  }
+  .login>h1{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-shadow: 9px 10px 9px rgb(11, 11, 11);
+      font-size: 60px;
+      margin: 1em 1.3em;
+  }
+  input{
+      display: block;
+      padding: 2em;
+  }
+  input[type="email"],input[type="text"]{
+      margin: 0 auto;
+      padding: 12px;
+      width: 60%;
+      border-radius: 4px;
+      background-color: rgba(0, 68, 255,0);
+      border: 3px groove black;
+  }
+
+  .amazing{
+      margin-left: 30.1%;
+     
+  }
+  .container {
+    position: relative;
+    background-color:rgba(23, 21, 21,0);
+    height: 116px;
+    width: 9%;
+    overflow: hidden;
+    display: grid;
+    float: left;
+  }
+  
+  .lightning-rope {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    border-radius: 50%;
+  
+    /* transform: translateX(-50%); */
+    width: 23px;
+    height: 45px;
+    background-color: rgb(255, 0, 191);
+    animation: lightning 5s infinite alternate;
+  }
+  
+  @keyframes lightning {
+    0% {
+      height: 70px;
+      transform: translateY(0);
+      background-color: rgb(255, 0, 30);
+      box-shadow: 4px 4px 4px rgb(255, 0, 166);
+    }
+    20% {
+      height: 65px;
+      background-color: rgb(78, 2, 49);
+      transform: skewX(360deg);
+      box-shadow: 4px 4px 4px rgb(255, 0, 106);
+    }
+    40% {
+      height: 95px;
+      background-color: rgb(255, 0, 238);
+      box-shadow: 4px 4px 4px rgb(248, 177, 235);
+      transform: translateY(0);
+    }
+  }
+
+
+/* presents page */
+
+#presents {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  header{
+    align-items: center;
+    background-color: rgb(209, 130, 234);
+    position: fixed;
+    height:50px;
+    width: 100%;
+    
+  }
+  
+  header h1{
+    font-size: 2.1.2em;
+    margin: 0 18em;
+  } 
+ header button{
+    background-color: black;
+    border-radius: 1em;
+    color: #fff;
+margin: -2.5em 1.6em;
+padding: 0.6em 2em;
+        float: right;
+    }
+  
+  .side-bar{
+    background-color: rgb(209, 130, 234);
+    border-top: 0.3em solid black;
+    width: 15em;
+    margin-top: 3.12em;
+    position: fixed;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:35.3em;
+    margin-left: 0;
+  }
+ .side-bar h2{
+    margin-left:3em;
+    font-weight: 900;
+   
+ 
+ }
+
+.side-bar ul{
+    display: block;
+    justify-content: space-between;
+    margin: 0 2em;
+    width: 84%;
+    font-family: sans-serif;
+
+}
+.side-bar ul a{
+    text-decoration: none;
+    color: black;
+}
+  .side-bar ul li{
+    width: 10em;
+    border-bottom: 0.01em solid black;
+    padding: 2em 0 1em 0;
+    border-radius: 0;
+  }
+  .side-bar ul li:hover{
+    background-color: rgba(41, 41, 185,0);
+    color: black;
+    border-bottom:0.1em solid rgb(42, 2, 49) ;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    margin-left: 0;
+    margin-bottom: 0;
+    width:80em;
+    height: 3em;
+    margin-top: 7em;
+    text-align: center;
+  }
+  footer>p{
+    margin: 2em 0 0 0;
+color: grey;
+  }
+  .content{
+display: flex;
+background: fixed black no-repeat center/cover;
+flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-left: 14.6em;
+ 
+   border: 4px solid black; 
+
+    /* background-color: black; */
+
+  }
+  .details h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight:500;
+    margin-left: 12em;
+  }
+
+  .details p{
+    background-color: #07070778;
+height: 50%;
+text-align: center;
+padding-top: 1em;
+border-radius: 10em;
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top: 1.4em;
+  }
+  .images{
+    float: left;
+    display: block;
+    margin-left: 0;
+    width: 100%;
+    /* background-color: aqua; */
+
+  }
+  .desc{
+    width: 30em;
+    color: white;
+    font-size: 2em;
+  }
+/* .images p{
+margin-top: 4%;
+color: whit;
+width: 15em;
+    font-size: 1.5em;
+   
+  } */
+  #birthday,#weeding,  #mourning,#graduation,  #proposal,#jubille,#home{
+    color: black;
+text-align: center;
+    height: 20em;
+    width: 63em;
+    margin:2em 0;
+    border-radius: 0.2em 0.2em 2em 2em;
+  }
+
+  #birthday{
+    /* background:url("./images/weedingdec.jpg") repeat center/100%; */
+    background: url("./images/bithdaypic4.jpg") no-repeat center/cover;
+
+
+
+    animation: br 20s infinite;
+  }
+  @keyframes br{
+    25%{
+        background: url("./images/birthdaypic2.jpg") no-repeat center/cover;
+    }
+    50%{
+        background: url("./images/birthdaypic3.jpg") no-repeat center/cover;
+    }
+    75%{
+        background: url("./images/birthdaypic2.jpg") no-repeat center/cover;
+    }
+    100%{
+              background:url("./images/birthdaypic1.jpg") no-repeat center/cover;
+    }
+  }
+  #weeding{
+    /* background:url("./images/weedingdec.jpg") repeat center/100%; */
+    background: url("./images/weddingdec.jpg") no-repeat center/cover;
+
+
+
+    animation: wed 20s infinite;
+  }
+  @keyframes wed{
+    25%{
+        background: url("./images/weddingpic4.jpg") no-repeat center/cover;
+    }
+    50%{
+        background: url("./images/weddingpic3.jpg") no-repeat center/cover;
+    }
+    75%{
+        background: url("./images/weddingpic2.jpg") no-repeat center/cover;
+    }
+    100%{
+background:url("./images/weddingdec1.jpg") repeat center/100%;
+    }
+  }
+
+
+  #mourning{
+    /* background:url("./images/weedingdec.jpg") repeat center/100%; */
+    background: url("./images/back4.png") no-repeat center/cover;
+
+
+
+    animation: mor 20s infinite;
+  }
+  @keyframes mor{
+    25%{
+        background: url("./images/morningpic1.jpg") no-repeat center/cover;
+    }
+    50%{
+        background: url("./images/morningpic4.jpg") no-repeat center/cover;
+    }
+    75%{
+        background: url("./images/morningpic3.jpg") no-repeat center/cover;
+    }
+    100%{
+background:url("./images/morningpic5.jpg") repeat center/100%;
+    }
+  }
+  
+  #graduation{
+    /* background:url("./images/weedingdec.jpg") repeat center/100%; */
+    background: url("./images/graduation.jpg") no-repeat center/cover;
+ 
+
+
+    animation: gra 20s infinite;
+  }
+  @keyframes gra{
+    25%{
+        background: url("./images/graduation2.jpg") no-repeat center/cover;
+    }
+    50%{
+        background: url("./images/graduation3.jpg") no-repeat center/cover;
+    }
+    75%{
+        background: url("./images/graduation4.jpg") no-repeat center/cover;
+    }
+    100%{
+background:url("./images/graduation5.jpg") repeat center/100%;
+    }
+  }
+  
+  #proposal{
+    /* background:url("./images/weedingdec.jpg") repeat center/100%; */
+    background: url("./images/proposal1.jpg") no-repeat center/cover;
+  
+   
+
+    animation: gra 20s infinite;
+  }
+  @keyframes gra{
+    25%{
+        background: url("./images/proposal2.jpg") no-repeat center/cover;
+    }
+    50%{
+        background: url("./images/proposal3.jpg") no-repeat center/cover;
+    }
+    75%{
+        background: url("./images/proposal4.jpg") no-repeat center/cover;
+    }
+    100%{
+background:url("./images/proposal5.jpg") repeat center/100%;
+    }
+  }
+  #home{
+    /* background:url("./images/weedingdec.jpg") repeat center/100%; */
+    background: url("./images/home.jpg") no-repeat center/cover;
+
+
+    animation: hom 20s infinite;
+  }
+  @keyframes hom{
+    50%{
+        background: url("./images/home1.jpg") no-repeat center/cover;
+    }
+    100%{
+        background: url("./images/home22.jpg") no-repeat center/cover;
+    }
+   
+  }
+/* about us page */
+#about {
+    font-family: Arial, sans-serif;
+    background-color: #5f265f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  #about header {
+   
+    background-color: #94167d;
+    color: black;
+    width: 100%;
+    font-size: 1.5em;
+    height: 20%;
+    border-radius: 1em 38em ;
+    padding: 5%;
+    text-align: center;
+  
+  }
+  #about header h1{
+      margin: -1em auto ;
+  }
+  
+  .about-us-content {
+    width: 90%;
+    background-image: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(207, 81, 182));
+    box-shadow:3em 3em 5em #c59ebe;
+  border-radius: 0.em;
+    padding: 1em;
+    text-align: center;
+    height: 12%;
+  /* position: fixed; */
+    margin-top: 5em;
+   font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #about footer{
+      background-color: rgba(1,1,1,0);
+      width: 800px;
+      align-items: center;
+      margin-top: 2em;
+  
+  }
+  #about footer p ,#first_page footer p{
+    width: 100%;
+    /* background-color: #1E90FF; */
+    /* margin-top:-0.1em ; */
+    color: white;
+    padding: 20px;
+    border-bottom: 0;
+  
+  }
+  #about button{
+    padding: 0.5em 2em;
+    color: #904c84;
+    background-color: black;
+    border-radius: 1em;
+   
+  }
+  /* images page */
+  .image{
+    margin-top: 2em;
+    width: 25em;
+    height: 20em;
+    background: #610909;
+    margin-left: 1.2em;
+  }
+  .image img{
+
+    width: 100%em;
+    height: 100%;
+
+  }
+  
+  .gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+ 
+
+  

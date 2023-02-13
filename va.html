@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Add styles for header and footer */
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Add styles for the navigation bar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-right: 1em;
+    }
+
+    /* Add styles for the image slideshow */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* Add styles for the main content area */
+    .main-content {
+      background-color: #f2f2f2;
+      padding: 1em;
+      margin-top: 5em;
+    }
+
+    /* Add styles for the animations */
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .fade {
+      animation-name: fade;
+    }
+
+    @keyframes slideInDown {
+      from {
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+      }
+      to {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    .slideInDown {
+      animation-name: slideInDown;
+    }
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: lightgray;
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+.color-animation {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.box {
+  width: 20%;
+  height: 100%;
+  animation: color-change 5s linear infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+footer {
+  margin-top: 50px;
+}
+  </style>
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav id="navbar">
+    <a href="#">Home</a>
+    <a href="#">Entertainment</a>
+    <a href="#">Contact</a>
+  </nav>
+  
+  <!-- Body content -->
+  <div id="welcome">
+    <h1 class="fade-in">Welcome to Adorn World</h1>
+    <p class="bounce-in-down">Discover the world of entertainment with Adorn World</p>
+  </div>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#logo">Logo</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <div class="color-animation">
+      <div class="box" id="color1"></div>
+      <div class="box" id="color2"></div>
+      <div class="box" id="color3"></div>
+      <div class="box" id="color4"></div>
+    </div>
+    
+    <footer>
+      <p>Copyright © Adorn World</p>
+    </footer>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <p>Copyright &copy; Adorn World</p>
+  </footer>
+</body>
+</html>
